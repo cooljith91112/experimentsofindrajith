@@ -3,9 +3,10 @@ languageCode: en-us
 title: Experiments of Indrajith
 theme: terminal
 copyright: Indrajith K L
-Description: Personal website of Indrajith K L portraying Game Designs, Web Development and IoT experiments
+Description: Personal website of Indrajith K L portraying Game Designs, Web Development, IoT and Thought Experiments
 params:
   themeColor: pink
+  AutoCover: true
   logo:
     logoText: Experiments of Indrajith
 
@@ -28,7 +29,7 @@ menu:
     - identifier: about
       name : About
       url : /about
-      weight : 3
+      weight : 50
 
 languages:
     en:
