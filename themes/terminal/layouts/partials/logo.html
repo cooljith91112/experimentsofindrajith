@@ -3,8 +3,8 @@
     {{ with $.Site.Params.Logo.logoText }}{{ . }}{{ else }}Terminal{{ end }}
   </div>
 </a>
-<script src="js/popper.min.js"></script>
-<script src="js/tippy-bundle.umd.min.js"></script>
+<script src="{{ "js/popper.min.js" | absURL }}"></script>
+<script src="{{ "js/tippy-bundle.umd.min.js" | absURL }}"></script>
 <script>
  tippy('.logo', {
         content: {{$.Site.Title}},
