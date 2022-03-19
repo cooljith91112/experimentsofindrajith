@@ -50,5 +50,15 @@
   {{ end }}
 
   {{ partial "comments.html" . }}
+  {{ if .Params.enableComment}}
+  <script src="https://utteranc.es/client.js"
+        repo="cooljith91112/experimentsofindrajith"
+        issue-term="pathname"
+        label="blog_comments"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+  </script>
+  {{end}}
 </div>
 {{ end }}
