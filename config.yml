@@ -1,10 +1,13 @@
 baseURL: "https://experimentsofindrajith.in"
 languageCode: en-us
 title: Experiments of Indrajith
-theme: PaperMod
+theme: terminal
 copyright: Indrajith K L
+Description: Personal website of Indrajith K L portraying Game Designs, Web Development and IoT experiments
 params:
-  description: Personal website of Indrajith K L portraying Game Designs, Web Development and IoT experiments
+  themeColor: pink
+  logo:
+    logoText: Experiments of Indrajith
 
 menu:
   main:
@@ -23,3 +26,9 @@ menu:
       url: /archives/
       weight: 30
 
+languages:
+    en:
+      params:
+        languageName: English
+        title: Experiments of Indrajith
+        subtitle: Personal website of Indrajith K L portraying Game Designs, Web Development and IoT experiments
