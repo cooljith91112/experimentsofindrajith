@@ -8,7 +8,7 @@ params:
   themeColor: pink
   AutoCover: true
   logo:
-    logoText: Experiments of Indrajith
+    logoText: [ E.O.I ]
 
 menu:
   main:
