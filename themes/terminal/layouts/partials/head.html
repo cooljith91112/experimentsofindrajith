@@ -72,5 +72,7 @@
   <link href="{{ .RelPermalink }}" rel="alternate" type="application/json" title="{{ $.Site.Title }}" />
 {{ end }}
 
+<link rel="stylesheet" href="{{ "css/override.css" | absURL }}">
+
 <!-- Extended head section-->
 {{ partial "extended_head.html" . }}
